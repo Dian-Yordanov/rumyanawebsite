@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="X-UA-Compatible" content="IE=8">
+<TITLE>rumyana-yordanova</TITLE>
+<META name="generator" content="BCL easyConverter SDK 5.0.101">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+@media screen {
+.content {
+	/* margin-top: 30px; */
+	padding: 16px;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+}
+body {
+	/* [disabled]margin-top: auto; */
+	margin-right: auto;
+	margin-left: auto;
+	/* [disabled]margin-bottom: auto; */
+	font-family: Arial, Helvetica, sans-serif;
+}
+	
+input[type=text], select, textarea {
+	top: 0;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+	top: 0;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+.container {
+    border-radius: 5px;
+/*    background-color: #f2f2f2;*/
+    padding: 20px;
+}
+
+.topnav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 10000;
+}
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.topnav + .content {
+	padding-top: 60px;
+}
+.topnav {
+	overflow: hidden;
+	background-color: #333;
+}
+.topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+.topnav a.topnavright {
+	float: right;
+	font-size: 17px;
+	width: auto;
+	max-width: none;
+}
+.topnav a.topnavright:hover {
+	background-color: #ddd;
+	color: black;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+	padding: 16px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+.topnav a.active {
+	background-color: #0000EE;
+	color: white;
+	padding: 16px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+.grid-container {
+	top: 0;
+	display: grid;
+	grid-column-gap: 50px;
+	grid-template-columns: auto auto auto auto auto auto;
+}
+.grid-container2 {
+	top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 840px;
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+	
+</style>
+</head>
+<header>
+<nav>
+<div class="topnav">
+<div class="grid-container">
+  <div class="emptry-container-space1"></div>
+  <div class="emptry-container-space4"></div>
+  <div class="emptry-container1"><a class="active" href="index.html">Home</a><a href="contact.html">Contact me</a></div>
+<!--  <div class="emptry-container-space2"></div>-->
+  <div class="emptry-container2"><a class="topnavright" href="BG.html"><img class='active' src='images/bulgarian-flag-small.png' alt='Bulgaria flag' title='Bulgaria version (original)'></a><a class="topnavright" href="index.html"><img class='active' src='images/united-kingdom-flag-small.png' alt='English flag' title='English version (original)'></a></div>
+  <div class="emptry-container-space3"></div>
+</div>
+</nav>
+</header>
+<body>
+
+<h3>Contact Form</h3>
+
+<div class="container">
+<div class="grid-container2">
+	<div class="emptry-container-space1"></div>
+	  <form action="/action_page.php">
+		<label for="fname">Name</label>
+		<input type="text" id="name" name="wholename" placeholder="Your name..">
+
+		<label for="email">Email</label>
+		<input type="text" id="email" name="email" placeholder="Your email..">
+
+		<label for="subject">Subject</label>
+		<input type="text" name="subject" placeholder="The reason you write me..">
+
+		<label for="message">Message</label>
+		<textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+		<input type="submit" value="Submit">
+	  </form>
+	<div class="emptry-container-space3"></div>
+</div>
+
+</body>
+</html>
