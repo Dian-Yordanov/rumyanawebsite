@@ -1,5 +1,5 @@
-https://xynnect.gitlab.io/rumyanawebsite/
+https://DianYordanov.gitlab.io/rumyanawebsite/
 
-https://xynnect.gitlab.io/MarkdownRumianaCV
+https://DianYordanov.gitlab.io/MarkdownRumianaCV
 
 http://rumyana-yordanova.tk
